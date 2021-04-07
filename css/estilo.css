@@ -1,11 +1,18 @@
 body {
   font-family: 'Roboto Mono',monospace;
-  text-align:center;
+  text-align: center;
   background-image: url('../img/fundo.png');
   background-color: #000000;
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
+  color: white;
+}
+
+body img{
+  width: 250px;
+  height: 250px;
+  text-align: center;
 }
 
 .container {
@@ -21,4 +28,13 @@ body {
 
 body > img {
   margin: 0 10px;
+
+}
+
+div{
+  display: inline-block;
+}
+
+div img{
+  display: block;
 }

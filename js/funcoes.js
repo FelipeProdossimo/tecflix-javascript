@@ -3,22 +3,23 @@ let filme2 = "A voz do silêncio";
 let filme3 = "Simplesmente acontece";
 */
 
+//para add mais um item!!
+//filmes.push("Vingadores");
+
 //arrays - estilo listas.
+let filmes = ["madagascar.jpg", 
+"rei-leao.jpg", 
+"toy-story.jpg"]
 
-let filmes = ["Madagascar", 
-"Rei leão", 
-"Toy story"]
-
-
+let nomes = ["Madagascar", "Rei leão", "Toy story"]
 /*
 console.log(filme1);
 console.log(filme2);
 console.log(filme3);
 */
 
-console.log(filmes);
-
-console.log(filmes.length);
+/*console.log(filmes);
+console.log(filmes.length);*/
 
 
 //acessar o indice
@@ -26,8 +27,22 @@ console.log(filmes.length);
 console.log(filmes[1]);
 console.log(filmes[2]);*/
 
-let quantidadeFilmes = 3;
+
+//while para laço           for também é laço
+/*
+let quantidadeFilmes = 2;
 while(quantidadeFilmes >= 0){
     console.log(filmes[quantidadeFilmes]);
     quantidadeFilmes--;
 } 
+*/
+//length ajudou o coding, não precisamos alterar manualmente.
+//length é pra retornar as numerações de laços de repetição, filme 1,2,3...
+for(let i = 0; i < filmes.length; i++){
+    //console.log(filmes[i]) para aparecer no console
+    document.write("<div>");
+    document.write("<img src='img/" + filmes[i] + "'>");
+    document.write(nomes[i]);
+    document.write("</div>");
+}
+
