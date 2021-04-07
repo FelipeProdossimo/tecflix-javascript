@@ -11,7 +11,7 @@ let filmes = ["madagascar.jpg",
 "rei-leao.jpg", 
 "toy-story.jpg"]
 
-let nomes = ["Madagascar", "Rei leão", "Toy story"]
+let nomes = ["Madagascar", "Rei Leão", "Toy Story"]
 /*
 console.log(filme1);
 console.log(filme2);
